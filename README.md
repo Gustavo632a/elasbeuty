@@ -1,3 +1,18 @@
+# Elas Beauty Studio
+
+## Deploy na Netlify
+
+O projeto gera uma versão estática na pasta `out/`, pronta para hospedagem na
+Netlify. Ao importar o repositório, a plataforma lê `netlify.toml` e usa:
+
+- comando de build: `npm run build`
+- diretório de publicação: `out`
+
+Para publicar uma nova versão, envie as alterações para a branch conectada ao
+projeto Netlify.
+
+---
+
 # vinext-starter
 
 A clean full-stack starter running on
