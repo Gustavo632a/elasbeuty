@@ -1,0 +1,60 @@
+:global(.logo-mark) {
+  display: block;
+  position: relative;
+  padding-right: 0;
+  letter-spacing: normal;
+}
+
+:global(.logo-image) {
+  display: block;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+:global(.logo) {
+  gap: 0;
+}
+
+:global(.logo .logo-copy) {
+  margin-left: -4px;
+}
+
+@media (max-width: 620px) {
+  :global(.logo-image) {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+:global(.logo-mark-e),
+:global(.logo-mark-b) {
+  position: absolute;
+  font-family: "Italiana", serif;
+  line-height: 1;
+}
+
+:global(.logo-mark-e) {
+  top: 55%;
+  left: 21%;
+  font-size: 21px;
+  transform: translateY(-50%);
+}
+
+/* Keep the E at its intended scale despite the generic logo span styling. */
+:global(.logo-mark .logo-mark-e) {
+  color: inherit;
+  font-size: 21px;
+}
+
+:global(.logo-mark-b) {
+  top: 27%;
+  left: 61%;
+  font-size: 20px;
+  color: #e1c98f;
+}
+
+:global(.logo-mark .logo-mark-b) {
+  font-size: 20px;
+}

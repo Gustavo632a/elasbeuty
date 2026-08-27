@@ -1,0 +1,7 @@
+@media (min-width: 621px) and (max-width: 900px) {
+  :global(.team-card:last-child) {
+    grid-column: auto;
+    justify-self: auto;
+    width: auto;
+  }
+}
